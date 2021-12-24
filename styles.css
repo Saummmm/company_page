@@ -1,0 +1,89 @@
+html {
+  margin: 0px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* nav and title section */
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: black;
+  padding: 0px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+nav .menu {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 15px;
+}
+
+/* mission section */
+#mission-stmt-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  background: url("/resources/photo-1486406146926-c627a92ad1ab.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mission-stmt-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0px 200px;
+}
+
+/* product section */
+.products-section {
+}
+
+.product-title {
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-content-item {
+  margin: 0px 100px;
+}
+
+.img-container;
