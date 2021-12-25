@@ -1,4 +1,4 @@
-html {
+body {
   margin: 0px;
   background-color: white;
   font-family: "Roboto", sans-serif;
@@ -7,6 +7,15 @@ html {
 
 .center {
   text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: lighter;
 }
 
 /* nav and title section */
@@ -70,11 +79,6 @@ nav .menu {
 }
 
 /* product section */
-.products-section {
-}
-
-.product-title {
-}
 
 .product-container {
   display: flex;
@@ -86,4 +90,57 @@ nav .menu {
   margin: 0px 100px;
 }
 
-.img-container;
+.img-container img {
+  height: 200px;
+}
+
+.product-content {
+  padding: 30px;
+}
+
+/* employee section */
+#employees-section {
+  background: url("/resources/360_F_96894032_R1eY5W4QJZPC8OepL5iJKqBQBaXuvLTC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.employee-title {
+  color: white;
+  padding-top: 1.5rem;
+}
+
+.employees-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.employee-content-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 10px;
+  margin: 2rem;
+}
+
+.employee-content-item img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 400px;
+}
+
+.employee {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+/* Footer */
+.email {
+  margin: 50px;
+}
+.copyright {
+  text-align: left;
+  margin: 20px;
+  font-size: smaller;
+  font-weight: lighter;
+}
